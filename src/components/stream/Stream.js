@@ -10,7 +10,7 @@ import React from 'react';
  import deleteFlow from '../../superfluidFunctions/deleteStream'; 
  import UpgradeNear from '../../superfluidFunctions/upgradeNear'; 
  import DowngradeNear from '../../superfluidFunctions/downgradeNear'; 
- import ConnectWallet from "../ConnectWallet"; 
+
  const Stream = () => { 
      const [recipient, setRecipient] = useState(""); 
      const [isButtonLoading, setIsButtonLoading] = useState(false); 
