@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { SidebarData } from './SidebarData';
 import '../sidebar/sidebar.css';
 import { IconContext } from 'react-icons';
-
+import ConnectWallet from "../ConnectWallet"; 
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
 
