@@ -3,7 +3,7 @@ import './withdraw.css';
 import { WidgetSwap } from "../../bridges/Bridgeswap.tsx";
 import Navbar from '../navbar/Navbar';
 import Sidebar from '../sidebar/Sidebar';
-
+import ConnectWallet from "../ConnectWallet"; 
 const Withdraw = () => {
   return (
     <div>
