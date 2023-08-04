@@ -3,7 +3,7 @@ import './swap.css';
 import { SwapWidget } from "../../bridges/Swapbridge.tsx";
 import Navbar from '../navbar/Navbar';
 import Sidebar from '../sidebar/Sidebar';
-
+import ConnectWallet from "../ConnectWallet"; 
 const Swap = () => {
   return (
     <div>
