@@ -5,7 +5,7 @@ import Distribute from './components/distribute/Distribute';
 import Stream from './components/stream/Stream';
 import Swap from './components/swap/Swap';
 import Withdraw from './components/withdraw/Withdraw';
-
+import ConnectWallet from "../ConnectWallet"; 
 function App() {
   return (
     <Router>
